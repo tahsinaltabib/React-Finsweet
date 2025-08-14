@@ -3,7 +3,6 @@ import H3tag from './../../reuseable/H3tag';
 import Ptag from './../../reuseable/Ptag';
 import { Col, Container, Row } from 'react-bootstrap';
 import './privacy.css'
-import Image from './../../reuseable/Image';
 
 
 const Privacy = () => {
@@ -14,8 +13,8 @@ const Privacy = () => {
           <Col lg={{ span: 8, offset: 2 }}>
             
             <div className='pri-heading'>
-              <H3tag className='p-h3'>Privacy Policy</H3tag>
-              <Ptag className='p-p'>When you’re ready to go beyond prototyping in Figma, Webflow’s ready to help you bring your</Ptag>
+              <H3tag className='pri-h3'>Privacy Policy</H3tag>
+              <Ptag className='pri-p'>When you’re ready to go beyond prototyping in Figma, Webflow’s ready to help you bring your</Ptag>
 
             </div>
             <div className='pri-med'>

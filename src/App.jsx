@@ -1,11 +1,12 @@
 import React from 'react'
-import PrivacyPolicy from './pages/PrivacyPolicy'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Contact from './pages/ContactUs'
+
 
 const App = () => {
   return (
     <>
-       <PrivacyPolicy/>
+       <Contact/>
     </>
   )
 }
