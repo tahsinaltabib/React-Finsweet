@@ -1,0 +1,46 @@
+.footer-sec{
+  background: #1C1E53;
+  padding-top: 104px;
+}
+.footer-sec .footer-heading .footer-head-pera{
+  color: #ffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  padding-top: 24px;
+}
+.footer-sec .footer-heading{
+  padding-bottom: 104px;
+}
+.footer-sec .footer-med{
+  background: #FCD980;
+  display: flex;
+  gap: 40px;
+  padding: 10px 10px 0 20px;
+}
+.footer-med .footer-med-h3{
+  color: #000;
+}
+.footer-med .footer-med-pera{
+  color: #000;
+}
+
+.footer-end .footer-end-h3{
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  padding-bottom: 24px;
+}
+.footer-end .footer-end-pera{
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+.footer-end .footer-end-icon{
+  display: flex;
+  color: #fff;
+  gap: 26px;
+}

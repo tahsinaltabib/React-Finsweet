@@ -1,12 +1,12 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Contact from './pages/ContactUs'
+import Footer from './components/home/footer';
 
 
 const App = () => {
   return (
     <>
-       <Contact/>
+      <Footer/>
     </>
   )
 }

@@ -1,0 +1,32 @@
+.nav-sec{
+  background: #1C1E53;
+  padding: 16px 0;
+}
+.nav-sec .navlist:hover{
+    color: #FCD980 !important;
+}
+.nav-sec .navlist{
+  color: #ffff !important;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.nav-sec .list-main{
+  gap: 32px;
+}
+
+.nav-sec .nav-btn{
+  padding: 16px 48px;
+  margin-left: 48px;
+  border: none;
+  border-radius: 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.4s;
+}
+.nav-sec .nav-btn:hover{
+  background: #FCD980;
+  color: #ffff;
+}
