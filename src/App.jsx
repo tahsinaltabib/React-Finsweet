@@ -1,12 +1,12 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Contact from './pages/ContactUs'
+import ReadBlog from './pages/ReadBlog'
 
 
 const App = () => {
   return (
     <>
-       <Contact/>
+       <ReadBlog/>
     </>
   )
 }

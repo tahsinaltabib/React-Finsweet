@@ -1,0 +1,20 @@
+.rdblog-st-div .rdblog-st-head{
+  text-align: center;
+  padding-top: 128px;
+  padding-bottom: 48px;
+}
+.rdblog-st-div .rdblog-st-head .rdblog-st-heading{
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  width: 949px;
+  display: inline-block;
+}
+.rdblog-st-div .rdblog-st-head .rdblog-st-pera{
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  display: inline-block;
+  padding-top: 16px;
+  padding-bottom: 48px;
+}
