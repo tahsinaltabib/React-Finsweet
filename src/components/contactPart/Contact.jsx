@@ -4,6 +4,7 @@ import H3tag from "./../../reuseable/H3tag";
 import Ptag from "./../../reuseable/Ptag";
 import { Col, Container, Row, Form } from "react-bootstrap";
 
+
 const Contact = () => {
   return (
     <section>
@@ -17,6 +18,7 @@ const Contact = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore.
               </Ptag>
+            
             </div>
 
               <div className='con-form'>
@@ -64,14 +66,16 @@ const Contact = () => {
                   <Form.Group className='con-form-msg'>
                     <Form.Label className="con-form-label">Message</Form.Label>
                     <Form.Control
-                      className='input-form'
+                      className='input-sms'
                       type='text'
-                      placeholder='Write your  question here'
-                    />
-                  </Form.Group>
-                  <button className='bg-[#282938] text-white px-[65px] py-[16px] rounded-[41px] mt-[32px]'>
+                      placeholder='Write your  question here'/>
+                </Form.Group>
+                
+                <div className="form-div">
+                  <button className='form-btn'>
                     Send Messege
                   </button>
+                </div>
                 </Form>
               </div>
           </Col>
