@@ -4,13 +4,14 @@ import H3tag from "../../reuseable/H3tag";
 import Ptag from "../../reuseable/Ptag";
 import Image from "../../reuseable/Image";
 import { Col, Container, Row } from "react-bootstrap";
+import Rdblog2 from '../../assets/rdblog2.jpg'
 
 const ReadBCover = () => {
   return (
     <section>
       <Container>
         <Row>
-          <Col lg={{ span: 10, offset: 1 }}>
+          <Col lg={{ span: 8, offset: 2 }}>
             <div className='rdblog-cover'>
               <H3tag className='rdblog-cover-heading1'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -50,7 +51,15 @@ const ReadBCover = () => {
               </ul>
 
               <Ptag className='rdblog-cover-pera3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-             </Ptag>
+              </Ptag>
+              <Image src={Rdblog2} />
+              <H3tag className='rdblog-cover-heading2'>
+                Ut enim ad minim veniam, quis nostrud
+              </H3tag>
+              <Ptag className='rdblog-cover-pera3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in {" "}
+                <span className='rdblog-cover-span'>
+                  voluptate velit esse
+                </span>{" "} cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Ptag>
             </div>
           </Col>
         </Row>
